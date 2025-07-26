@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clothing Size Predictor</title>
+</head>
+<body>
+    <h2>Clothing Size Prediction</h2>
+    <form action="/predict" method="post">
+        Height (cm): <input type="text" name="height"><br><br>
+        Weight (kg): <input type="text" name="weight"><br><br>
+        Age: <input type="text" name="age"><br><br>
+        Gender (nam/nữ): <input type="text" name="gender"><br><br>
+        <input type="submit" value="Predict Size">
+    </form>
+
+    <h3>{{ prediction_text }}</h3>
+</body>
+</html>
