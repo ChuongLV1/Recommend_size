@@ -8,3 +8,8 @@ scikit-learn
 gunicorn
 fastapi
 uvicorn
+matplotlib
+
+
+
+

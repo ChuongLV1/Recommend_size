@@ -1,0 +1,6 @@
+model,best_params,cv_f1_macro,log_file
+rf,"{'clf__max_depth': None, 'clf__n_estimators': 250}",0.9742735507518638,../Recommend_size/save model\log_rf.csv
+knn,"{'clf__n_neighbors': 5, 'clf__weights': 'uniform'}",0.9645650944861298,../Recommend_size/save model\log_knn.csv
+dtree,"{'clf__max_depth': 10, 'clf__min_samples_split': 5}",0.9631550562069637,../Recommend_size/save model\log_dtree.csv
+logreg,{'clf__C': 2.0},0.959704869557488,../Recommend_size/save model\log_logreg.csv
+linsvc,{'clf__C': 2.0},0.6597846303048778,../Recommend_size/save model\log_linsvc.csv
